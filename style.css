@@ -1,28 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+}
+
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     background-color: whitesmoke;
 }
 
-div {
-    margin: auto;
-    width: 5px 40px; 
+.wrapper {
+    width: 420px;
+    background-color: white;
+    color: white;
+    box-shadow: grey;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    box-sizing: border-box;
+    padding: 15px 15px;
 }
 
-.login-container {
-    background-color: beige;
-    border: 2px solid gray;
-    width: fit-content;
-
-}
-
-h5 {
+.wrapper h5 {
+    font-size: 20px;
     text-align: center;
+    color: black;
 }
 
-img {
+.wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.wrapper .Forgot {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    margin: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Forgot a:hover {
+    text-decoration: brown;
+}
+
+.wrapper .btn {
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-shadow: none;
+}
+
+#login {
+background-color: #0866ff;
+color: white;
+border-radius: 10px;
+font-size: 25px;
+border-color: #0866ff;
+border: none;
+cursor: pointer;
+text-shadow: none;
+}
+
+.logo h1 {
     position: absolute;
-  margin: 20px 200px;
-  width: 300px;
-  padding: 10px;
+    margin: -250px 150px;
+    height: 25%;
+    padding: -40px 10px;
+    color: #0866ff;
+    font-family: inherit;
+    text-align: center;
+    text-shadow: none;
+    font-weight: bolder;
 }
-
-button
